@@ -1,6 +1,6 @@
 # Giao diện hệ thống thương mại điện tử mini
 
-Project này là một website thương mại điện tử (E-commerce) được phát triển bằng React JS và Tailwind CSS. Nó bao gồm hai phần: giao diện mua sắm cho khách hàng và giao diện quản lý cho admin (để quản lý sản phẩm, đơn hàng).
+Project này là một website thương mại điện tử (E-commerce) được phát triển bằng React JS và Tailwind CSS và bao gồm hai phần chính là giao diện mua sắm cho khách hàng và giao diện quản lý cho admin (để quản lý sản phẩm, đơn hàng). Ứng dụng được thiết kế responsive, cho phép truy cập dễ dàng trên mọi thiết bị, bao gồm cả điện thoại di động.
 
 ## Công Nghệ Sử Dụng
 
