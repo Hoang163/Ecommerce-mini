@@ -1,6 +1,6 @@
 # Giao diện hệ thống thương mại điện tử mini
 
-Một ứng dụng Web / Website Thương mại điện tử được xây dựng bằng React JS và Tailwind CSS. Project này bao gồm cả giao diện dành cho khách hàng mua sắm và giao diện quản trị (admin) để quản lý sản phẩm và đơn hàng.
+Project này là một website thương mại điện tử (E-commerce) được phát triển bằng React JS và Tailwind CSS. Nó bao gồm hai phần: giao diện mua sắm cho khách hàng và giao diện quản lý cho admin (để quản lý sản phẩm, đơn hàng).
 
 ## Công Nghệ Sử Dụng
 
@@ -44,15 +44,20 @@ Project bao gồm các tính năng chính sau:
 * Liệt kê và xóa sản phẩm (List and delete the products).
 * Hiển thị và cập nhật trạng thái đơn hàng (Display and update the orders).
 
-## Hướng Dẫn Cài Đặt
+## Mục Tiêu
 
-1.  Clone kho chứa về máy:
-    ```bash
-    git clone <địa chỉ kho chứa của bạn>
-    cd <tên thư mục project>
-    ```
-2.  Cài đặt các dependencies cho frontend:
-    ```bash
-    cd frontend # Nếu frontend là một thư mục riêng
-    npm install # hoặc yarn install
-    ```
+* Thực hành và nâng cao kỹ năng sử dụng **React JS** và **Tailwind CSS** trong xây dựng giao diện.
+* Nắm vững cấu trúc và luồng hoạt động của một ứng dụng **thương mại điện tử** ở phía frontend.
+* Xây dựng đầy đủ các tính năng giao diện cần thiết cho cả giao diện **người dùng cuối** và giao diện **quản trị (admin)** (chỉ về mặt giao diện, không bao gồm xử lý logic backend).
+
+## Hướng Dẫn Cài Đặt
+  
+    git clone https://github.com/Hoang163/Ecommerce-mini.git
+    cd <tên thư mục project> 
+    npm install
+    npm run dev
+  
+
+    
+    
+ 
