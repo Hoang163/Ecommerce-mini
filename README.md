@@ -4,9 +4,7 @@ Project này là một website thương mại điện tử (E-commerce) được
 
 ## Công Nghệ Sử Dụng
 
-* **Frontend:**
-    * React JS
-    * Tailwind CSS
+* **Frontend:**React JS, Tailwind CSS
 
 ## Tính Năng
 
