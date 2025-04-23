@@ -1,16 +1,58 @@
-<<<<<<< HEAD
-# React + Vite
+# Giao diện hệ thống thương mại điện tử mini
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Một ứng dụng Web / Website Thương mại điện tử được xây dựng bằng React JS và Tailwind CSS. Project này bao gồm cả giao diện dành cho khách hàng mua sắm và giao diện quản trị (admin) để quản lý sản phẩm và đơn hàng.
 
-Currently, two official plugins are available:
+## Công Nghệ Sử Dụng
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Frontend:**
+    * React JS
+    * Tailwind CSS
 
-## Expanding the ESLint configuration
+## Tính Năng
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Ecommerce-mini
->>>>>>> bb2e2dc02aadc0fa0a823afc02fbcbbd436f8b29
+Project bao gồm các tính năng chính sau:
+
+### Giao diện Khách hàng
+
+* **Trang Chủ:**
+    * Hiển thị các sản phẩm mới nhất (Latest products).
+    * Hiển thị các sản phẩm bán chạy nhất (Best selling products).
+    * Khu vực đăng ký nhận bản tin (Newsletter subscription box).
+    * Footer (Chân trang).
+* **Trang Danh Sách Sản Phẩm (Products Collection Page):**
+    * Hiển thị tất cả các sản phẩm có trên website.
+    * Lọc sản phẩm (Product filter).
+    * Sắp xếp sản phẩm (Product sort).
+    * Tìm kiếm sản phẩm (Product search).
+* **Trang Chi Tiết Sản Phẩm (Product Page):**
+    * Hiển thị bộ sưu tập hình ảnh sản phẩm (Product image gallery).
+    * Hiển thị tên sản phẩm (Title), giá (Price), mô tả (Description).
+    * Nút "Thêm vào giỏ hàng" (Add to cart button).
+    * Hiển thị các sản phẩm liên quan (Related products).
+* **Các Trang Khác:**
+    * Trang Đặt hàng (Place Order page).
+    * Trang Giỏ hàng (Cart page).
+    * Trang Danh sách đơn hàng của tôi (My Order list page).
+    * Trang Giới thiệu (About Page).
+    * Trang Liên hệ (Contact Page).
+    * Trang Đăng nhập (Login).
+    * Trang Đăng ký (Signup).
+
+### Giao diện Quản trị (Admin)
+
+* Thêm sản phẩm mới (Add new products).
+* Liệt kê và xóa sản phẩm (List and delete the products).
+* Hiển thị và cập nhật trạng thái đơn hàng (Display and update the orders).
+
+## Hướng Dẫn Cài Đặt
+
+1.  Clone kho chứa về máy:
+    ```bash
+    git clone <địa chỉ kho chứa của bạn>
+    cd <tên thư mục project>
+    ```
+2.  Cài đặt các dependencies cho frontend:
+    ```bash
+    cd frontend # Nếu frontend là một thư mục riêng
+    npm install # hoặc yarn install
+    ```
