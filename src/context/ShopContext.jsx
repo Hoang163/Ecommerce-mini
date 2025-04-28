@@ -12,6 +12,7 @@ const ShopContextProvider = (props) => {
   const currency = "$";
   const delivery_fee = 10;
 
+  console.log("Value of products in ShopContextProvider:", products);
   // Tạo một đối tượng value chứa các dữ liệu mà bạn muốn chia sẻ thông qua context
   const value = {
     products, // Mảng dữ liệu sản phẩm
