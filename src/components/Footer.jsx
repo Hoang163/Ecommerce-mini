@@ -8,7 +8,7 @@ const Footer = () => {
 
         <div>
           <img className='mb-5 w-32' src={assets.logo} alt="" />
-          <p className='w-full md:w-2/3 text-gray-600'>At , we believe in creating fashion that lasts. Our mission is to provide high-quality, sustainable apparel that makes you look and feel great. Discover clothing crafted with care and passion for you.</p>
+          <p className='w-full md:w-2/3 text-gray-600'>At ShopStyle, we believe in creating fashion that lasts. Our mission is to provide high-quality, sustainable apparel that makes you look and feel great. Discover clothing crafted with care and passion for you.</p>
         </div>
 
         <div>
