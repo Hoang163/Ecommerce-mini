@@ -42,12 +42,6 @@ Project bao gồm các tính năng chính sau:
 * Liệt kê và xóa sản phẩm (List and delete the products).
 * Hiển thị và cập nhật trạng thái đơn hàng (Display and update the orders).
 
-## Mục Tiêu
-
-* Thực hành và nâng cao kỹ năng sử dụng **React JS** và **Tailwind CSS** trong xây dựng giao diện.
-* Nắm vững cấu trúc và luồng hoạt động của một ứng dụng **thương mại điện tử** ở phía frontend.
-* Xây dựng đầy đủ các tính năng giao diện cần thiết cho cả giao diện **người dùng cuối** và giao diện **quản trị (admin)** (chỉ về mặt giao diện, không bao gồm xử lý logic backend).
-
 ## Hướng Dẫn Cài Đặt
   
     git clone https://github.com/Hoang163/Ecommerce-mini.git
